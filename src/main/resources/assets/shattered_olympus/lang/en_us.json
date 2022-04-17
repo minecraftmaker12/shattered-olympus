@@ -1,6 +1,4 @@
 {
-  "block.shattered_olympus.tearflower": "Tearflower",
-  "item.shattered_olympis.shattered_olympus": "Olympian Key",
   "block.shattered_olympis.tearflower": "Tearflower",
   "block.shattered_olympis.olympian_moss": "Olympian Moss",
   "block.shattered_olympus.olympian_moss": "Weeping Moss",
@@ -9,5 +7,7 @@
   "biome.shattered_olympus.tear_grasslands": "Tear Grasslands",
   "item.shattered_olympus.shattered_olympus": "Olympian Key",
   "block.shattered_olympus.living_plant": "Living Plant",
+  "block.shattered_olympus.tearflower": "Tearflower",
+  "item.shattered_olympis.shattered_olympus": "Olympian Key",
   "key.shattered_olympus.bottlethingy": "Bottlethingy"
 }
