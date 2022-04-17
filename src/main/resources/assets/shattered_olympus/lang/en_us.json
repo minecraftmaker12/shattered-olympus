@@ -5,10 +5,9 @@
   "block.shattered_olympis.olympian_moss": "Olympian Moss",
   "block.shattered_olympus.olympian_moss": "Weeping Moss",
   "biome.shattered_olympis.tear_grasslands": "Tear Grasslands",
+  "item.shattered_olympus.rainwater_bottle": "Rainwater Bottle",
   "biome.shattered_olympus.tear_grasslands": "Tear Grasslands",
   "item.shattered_olympus.shattered_olympus": "Olympian Key",
-  "block.shattered_olympus.life_moss": "Life Moss",
   "block.shattered_olympus.living_plant": "Living Plant",
-  "biome.shattered_olympus.living_landmass": "Living Landmass",
-  "block.shattered_olympus.predatory_plant": "Predatory Plant"
+  "key.shattered_olympus.bottlethingy": "Bottlethingy"
 }

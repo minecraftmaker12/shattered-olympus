@@ -110,7 +110,7 @@ public class LivingPlantBlock extends ShatteredOlympusModElements.ModElement {
 	@SubscribeEvent
 	public void addFeatureToBiomes(BiomeLoadingEvent event) {
 		boolean biomeCriteria = false;
-		if (new ResourceLocation("shattered_olympus:living_landmass").equals(event.getName()))
+		if (new ResourceLocation("shattered_olympus:tear_grasslands").equals(event.getName()))
 			biomeCriteria = true;
 		if (!biomeCriteria)
 			return;
@@ -145,7 +145,7 @@ public class LivingPlantBlock extends ShatteredOlympusModElements.ModElement {
 		@Override
 		public boolean isValidGround(BlockState state, IBlockReader worldIn, BlockPos pos) {
 			Block ground = state.getBlock();
-			return (ground == LifeMossBlock.block
+			return (ground == OlympianMossBlock.block
 
 			)
 

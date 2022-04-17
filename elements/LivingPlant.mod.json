@@ -79,7 +79,7 @@
     "speedFactor": 1.0,
     "canBePlacedOn": [
       {
-        "value": "CUSTOM:LifeMoss"
+        "value": "CUSTOM:OlympianMoss"
       }
     ],
     "frequencyOnChunks": 5,
@@ -88,7 +88,7 @@
     ],
     "restrictionBiomes": [
       {
-        "value": "CUSTOM:LivingLandmass"
+        "value": "CUSTOM:TearGrasslands"
       }
     ],
     "patchSize": 64

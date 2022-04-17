@@ -1,7 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "shattered_olympus:blocks/predatory",
-    "particle": "shattered_olympus:blocks/predatory"
-  }
-}

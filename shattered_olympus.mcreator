@@ -36,14 +36,6 @@
       "registry_name": "olympian_moss"
     },
     {
-      "name": "LifeMoss",
-      "type": "block",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "life_moss"
-    },
-    {
       "name": "LivingPlant",
       "type": "plant",
       "sortid": 6,
@@ -52,36 +44,52 @@
       "registry_name": "living_plant"
     },
     {
-      "name": "PredatoryPlantMobplayerCollidesWithPlant",
+      "name": "RainwaterBottle",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rainwater_bottle"
+    },
+    {
+      "name": "BottlethingyOnKeyPressed",
       "type": "procedure",
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "predatory_plant_mobplayer_collides_with_plant",
+      "registry_name": "bottlethingy_on_key_pressed",
       "metadata": {
         "dependencies": [
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
     },
     {
-      "name": "PredatoryPlant",
-      "type": "plant",
+      "name": "Bottlethingy",
+      "type": "keybind",
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "predatory_plant"
-    },
-    {
-      "name": "LivingLandmass",
-      "type": "biome",
-      "sortid": 8,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "living_landmass"
+      "registry_name": "bottlethingy"
     }
   ],
   "variable_elements": [],
@@ -94,12 +102,11 @@
       "block.shattered_olympis.olympian_moss": "Olympian Moss",
       "block.shattered_olympus.olympian_moss": "Weeping Moss",
       "biome.shattered_olympis.tear_grasslands": "Tear Grasslands",
+      "item.shattered_olympus.rainwater_bottle": "Rainwater Bottle",
       "biome.shattered_olympus.tear_grasslands": "Tear Grasslands",
       "item.shattered_olympus.shattered_olympus": "Olympian Key",
-      "block.shattered_olympus.life_moss": "Life Moss",
       "block.shattered_olympus.living_plant": "Living Plant",
-      "biome.shattered_olympus.living_landmass": "Living Landmass",
-      "block.shattered_olympus.predatory_plant": "Predatory Plant"
+      "key.shattered_olympus.bottlethingy": "Bottlethingy"
     }
   },
   "foldersRoot": {

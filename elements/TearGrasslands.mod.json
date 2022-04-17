@@ -24,14 +24,14 @@
     "moodSoundDelay": 6000,
     "spawnParticles": false,
     "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "RAIN"
     },
-    "particlesProbability": 0.5,
+    "particlesProbability": 100.0,
     "biomeCategory": "NONE",
     "parent": {
       "value": "No parent"
     },
-    "rainingPossibility": 0.5,
+    "rainingPossibility": 1.0,
     "temperature": 0.5,
     "baseHeight": 0.1,
     "heightVariation": 0.2,

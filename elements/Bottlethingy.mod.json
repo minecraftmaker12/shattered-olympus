@@ -1,0 +1,12 @@
+{
+  "_fv": 24,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "RCONTROL",
+    "keyBindingName": "Bottlethingy",
+    "keyBindingCategoryKey": "misc",
+    "onKeyReleased": {
+      "name": "BottlethingyOnKeyPressed"
+    }
+  }
+}
