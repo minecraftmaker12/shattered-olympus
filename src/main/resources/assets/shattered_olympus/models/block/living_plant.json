@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "shattered_olympus:blocks/livingplant",
+    "particle": "shattered_olympus:blocks/livingplant"
+  }
+}

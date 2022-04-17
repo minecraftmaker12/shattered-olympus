@@ -1,0 +1,128 @@
+{
+  "mod_elements": [
+    {
+      "name": "Tearflower",
+      "type": "plant",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tearflower"
+    },
+    {
+      "name": "TearGrasslands",
+      "type": "biome",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tear_grasslands"
+    },
+    {
+      "name": "ShatteredOlympus",
+      "type": "dimension",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shattered_olympus",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "OlympianMoss",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olympian_moss"
+    },
+    {
+      "name": "LifeMoss",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "life_moss"
+    },
+    {
+      "name": "LivingPlant",
+      "type": "plant",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "living_plant"
+    },
+    {
+      "name": "PredatoryPlantMobplayerCollidesWithPlant",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "predatory_plant_mobplayer_collides_with_plant",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PredatoryPlant",
+      "type": "plant",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "predatory_plant"
+    },
+    {
+      "name": "LivingLandmass",
+      "type": "biome",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "living_landmass"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.shattered_olympus.tearflower": "Tearflower",
+      "item.shattered_olympis.shattered_olympus": "Olympian Key",
+      "block.shattered_olympis.tearflower": "Tearflower",
+      "block.shattered_olympis.olympian_moss": "Olympian Moss",
+      "block.shattered_olympus.olympian_moss": "Weeping Moss",
+      "biome.shattered_olympis.tear_grasslands": "Tear Grasslands",
+      "biome.shattered_olympus.tear_grasslands": "Tear Grasslands",
+      "item.shattered_olympus.shattered_olympus": "Olympian Key",
+      "block.shattered_olympus.life_moss": "Life Moss",
+      "block.shattered_olympus.living_plant": "Living Plant",
+      "biome.shattered_olympus.living_landmass": "Living Landmass",
+      "block.shattered_olympus.predatory_plant": "Predatory Plant"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "shattered_olympus",
+    "modName": "Shattered Olympus",
+    "version": "1.0.0",
+    "author": "dooli, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.shatteredolympus",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100354000
+}

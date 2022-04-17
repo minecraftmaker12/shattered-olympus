@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "shattered_olympus:blocks/magusmoss",
+    "up": "shattered_olympus:blocks/magusmoss",
+    "north": "shattered_olympus:blocks/magusmoss",
+    "east": "shattered_olympus:blocks/magusmoss",
+    "south": "shattered_olympus:blocks/magusmoss",
+    "west": "shattered_olympus:blocks/magusmoss",
+    "particle": "shattered_olympus:blocks/magusmoss"
+  }
+}

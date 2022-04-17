@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "shattered_olympus:block/shattered_olympus_portal_ew"
+    },
+    "axis=x": {
+      "model": "shattered_olympus:block/shattered_olympus_portal_ns"
+    }
+  }
+}

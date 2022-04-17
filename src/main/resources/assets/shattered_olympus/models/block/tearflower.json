@@ -1,0 +1,8 @@
+{
+  "parent": "shattered_olympus:custom/eye",
+  "textures": {
+    "all": "shattered_olympus:blocks/plant1",
+    "particle": "shattered_olympus:blocks/plant1",
+    "0": "shattered_olympus:blocks/eye"
+  }
+}
